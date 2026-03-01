@@ -16,6 +16,7 @@ function App() {
   const handleNext = function () {
     if (step < 3) setStep((prevStep) => prevStep + 1);
   };
+
   return (
     <div className="steps">
       <div className="numbers">
